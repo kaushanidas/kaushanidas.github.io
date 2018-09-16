@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "Voracious",
-    author: "Mohit Vora",
+    title: "Das's Brain",
+    author: "Kaushani Das",
     homeCity: "Bengaluru",
   },
   plugins: [

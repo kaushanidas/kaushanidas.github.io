@@ -66,7 +66,7 @@ class Wrapper extends React.Component {
           margin: `0 auto`,
         }}
       >
-        <Helmet defaultTitle="Mohit Vora" titleTemplate="Voracious | %s" />
+        <Helmet defaultTitle="Kaushani Das" titleTemplate="KD | %s" />
         <div>{header}</div>
         {this.props.children}
       </div>
