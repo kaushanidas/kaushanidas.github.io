@@ -1,0 +1,10 @@
+node_modules/
+public/
+.DS_Store
+.sass-cache/
+temp.coffee
+deploy.db
+assets/sass/bower_components/
+.build/
+.intermediate-representation/
+.cache/

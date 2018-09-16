@@ -1,0 +1,42 @@
+{
+  "name": "blog",
+  "description": "'My blog'",
+  "version": "0.0.1",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "scripts": {
+    "format": "prettier --write '**/*.js'",
+    "deploy": "gatsby build && gh-pages -d public -b master"
+  },
+  "dependencies": {
+    "gatsby": "^2.0.0-beta.70",
+    "gatsby-plugin-google-analytics": "^2.0.0-beta.4",
+    "gatsby-plugin-manifest": "^2.0.2-beta.4",
+    "gatsby-plugin-offline": "^2.0.0-beta.9",
+    "gatsby-plugin-react-helmet": "next",
+    "gatsby-plugin-sharp": "next",
+    "gatsby-plugin-typography": "next",
+    "gatsby-remark-copy-linked-files": "next",
+    "gatsby-remark-images": "^2.0.1-beta.10",
+    "gatsby-remark-prismjs": "next",
+    "gatsby-remark-responsive-iframe": "next",
+    "gatsby-remark-smartypants": "next",
+    "gatsby-source-filesystem": "next",
+    "gatsby-transformer-remark": "^2.1.1-beta.6",
+    "gatsby-transformer-sharp": "next",
+    "lodash": "^4.17.4",
+    "prettier": "^1.6.1",
+    "prismjs": "^1.15.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-helmet": "^5.2.0",
+    "react-typography": "^0.16.1",
+    "typeface-alegreya": "^0.0.35",
+    "typeface-alegreya-sans": "^0.0.35",
+    "typography": "^0.16.17",
+    "typography-plugin-code": "^0.15.10",
+    "typography-theme-de-young": "^0.15.10"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  }
+}
